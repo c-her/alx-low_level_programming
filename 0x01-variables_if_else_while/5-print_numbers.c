@@ -1,19 +1,16 @@
 #include <stdio.h>
-/* more headers goes there */
 
 /**
-* main - entry point
-*
-* Return: 0 if success
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    
-	for (int i = 0; i <= 9; i++)
-	{
-		printf("%d", i);
-	}
-	printf("\n");
+	int a;
 
-    return 0;
+	for (a = 0; a <= 9; a++)
+		printf("%i", a);
+	putchar('\n');
+	return (0);
 }
