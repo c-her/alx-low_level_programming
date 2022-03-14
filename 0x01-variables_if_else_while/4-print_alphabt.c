@@ -1,49 +1,19 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    char ch = 'a';
-	while(ch <= 'z')
+	int alph;
+
+	for (alph = 'a'; alph <= 'z'; alph++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		ch++;
+		if (alph != 'e' && alph != 'q')
+			putchar(alph);
 	}
 	putchar('\n');
-
-    return 0;
-}
-
-#include <stdio.h>
-
-int main(void)
-{
-    
-	for (char ch = 'a'; ch <= 'z'; ch++)
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-	}
-	putchar('\n');
-
-    return 0;
-}
-
-int main(void)
-{
-    
-	for (char ch ='a'; ch <= 'z'; ch++)
-	{
-		if (ch == 'e' || ch == 'q')
-		    ch++;
-		putchar(ch);
-		
-	}
-	putchar('\n');
-
-    return 0;
+	return (0);
 }

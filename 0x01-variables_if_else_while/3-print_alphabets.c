@@ -1,28 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - Program entry point
+ * main - Entry point
  *
- * Return: 0 on success. Error code otherwise
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char a = 'a';
-	char A = 'A';
-	int n = 0;
+	int a;
+	int b;
 
-	while (n < 52)
-	{
-		if (n < 26)
-		{
-			putchar(a);
-			a++;
-		}else
-		{
-			putchar (A);
-			A++;
-		}
-		n++;
-	}
-	putchar ('\n');
+	for (a = 'a'; a <= 'z'; a++)
+		putchar(a);
+	for (b = 'A'; b <= 'Z'; b++)
+		putchar(b);
+	putchar('\n');
 	return (0);
 }
