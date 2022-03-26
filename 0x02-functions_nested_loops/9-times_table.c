@@ -1,4 +1,5 @@
-#include "main.h
+#include "main.h"
+#include <stdio.h>
 /**
  * times_table - check description
  * Description: It prints 9 times table starting with 0
@@ -20,8 +21,8 @@ void times_table(void)
 			else if (multiplied_value >= 10)
 			{
 				_putchar(' ');
-				_putchar(multiplied_value / 10 + '0');
-				_putchar(multiplied_value % 10 + '0');
+				_putchar((multiplied_value / 10) + '0');
+				_putchar((multiplied_value % 10) + '0');
 			}
 			else
 			{

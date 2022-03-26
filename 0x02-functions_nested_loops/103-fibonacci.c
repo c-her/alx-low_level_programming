@@ -19,7 +19,6 @@ int main(void)
 		{
 			sum += R;
 		}
-		
 		bef = aft;
 		aft = R;
 	}
