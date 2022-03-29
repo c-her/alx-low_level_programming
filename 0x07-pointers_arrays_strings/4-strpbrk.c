@@ -8,7 +8,7 @@
  * Return: NULL
  */
 
-char *_strpbk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i;
 
