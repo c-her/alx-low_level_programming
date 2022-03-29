@@ -6,7 +6,7 @@
  * return: 0
  */
 
-voi rev_string(char *n)
+void rev_string(char *n)
 {
 	int i = 0;
 	int j = 0;

@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * more_numbers(void) - prints 10 times the numbers, from 0 to 14
+ * more_numbers - prints 10 times the numbers, from 0 to 14
  *
  * Return: Void.
  */
@@ -25,5 +25,4 @@ void more_numbers(void)
 		}
 		_putchar('\n');
 	}
-	return (0);
 }

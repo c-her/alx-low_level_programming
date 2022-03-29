@@ -1,4 +1,4 @@
-#inclde "main.h"
+#include "main.h"
 /**
  * rev_string - rev string
  * @s: string

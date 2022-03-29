@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print numbers from 0 to 9, followed by a new line
+ * print_numbers from 0 to 9, followed by a new line
  *
  * Return: Void.
  */
@@ -16,5 +16,4 @@ void print_numbers(void)
 	}
 
 	_putchar('\n');
-	return (0);
 }
