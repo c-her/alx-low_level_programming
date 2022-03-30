@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_diagonal - print diagonal dependent on int n.
- * @n: The number of '\' characters to use
+ * print_diagonal - Print diagonal line dependent on the integer n.
+ * @n : The number of lines using '\' characters to use
  * Return: Void.
  */
 void print_diagonal(int n)
@@ -13,7 +13,7 @@ void print_diagonal(int n)
 
 	for (i = 0; i < n; i++)
 	{
-		for(spaces = 0; spaces < i; spaces++)
+		for (spaces = 0; spaces < i; spaces++)
 		{
 			_putchar(' ');
 		}
