@@ -3,15 +3,15 @@
 /**
  * _puts - prints string
  * @str: input string
- * Return: Void
+ * Return: no return
  */
+
 void _puts(char *str)
 {
-	while (str != '\0')
+	while (*str != '\0')
 	{
 		_putchar(*str);
 		str++;
 	}
 	_putchar('\n');
 }
-
